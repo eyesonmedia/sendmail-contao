@@ -1,0 +1,72 @@
+/*
+{
+  "name": "eonm/sendmail",
+  "description": "Sending Mail for Contao",
+  "type": "eonm-extension",
+  "minimum-stability": "dev",
+  "keywords": ["eonm","extension"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Burak",
+      "email": "aydin@eonm.de",
+      "homepage": "http://www.eonm.de/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Eonm\\Sendmail\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.5.9|~7.0",
+    "psr/log": "^1.0",
+    "symfony/framework-bundle": "^3.3"
+  },
+  "require-dev": {
+    "sensio/framework-extra-bundle": "^3.0.13"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
+*/
+{
+  "name":"eonm/sendmail",
+  "description":"Sending Mail for Contao",
+  "keywords":["contao","sending mail","content-elements"],
+  "type":"contao-bundle",
+  "homepage":"http://www.eyesonmedia.de",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Burak",
+      "homepage": "http://www.eonm.de/",
+      "role":"Developer"
+    }
+  ],
+  "support":{
+    "forum":"http://help.rocksolidthemes.com/discussions/contao",
+    "issues":"",
+    "source":""
+  },
+  "require":{
+    "php":">=5.5",
+    "contao/core-bundle":"^4.4"
+  },
+  "require-dev": {
+    "sensio/framework-extra-bundle": "^3.0.13"
+  },
+  "conflict": {
+    "contao/core": "*",
+    "contao/core-bundle": "4.4.1",
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "autoload":{
+    "psr-4": {
+      "Eonm\\Sendmail\\": "src/"
+    }
+  }
+}
