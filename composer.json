@@ -1,38 +1,3 @@
-/*
-{
-  "name": "eonm/sendmail",
-  "description": "Sending Mail for Contao",
-  "type": "eonm-extension",
-  "minimum-stability": "dev",
-  "keywords": ["eonm","extension"],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Burak",
-      "email": "aydin@eonm.de",
-      "homepage": "http://www.eonm.de/"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Eonm\\Sendmail\\": "src/"
-    }
-  },
-  "require": {
-    "php": "^5.5.9|~7.0",
-    "psr/log": "^1.0",
-    "symfony/framework-bundle": "^3.3"
-  },
-  "require-dev": {
-    "sensio/framework-extra-bundle": "^3.0.13"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0-dev"
-    }
-  }
-}
-*/
 {
   "name":"eonm/sendmail",
   "description":"Sending Mail for Contao",
